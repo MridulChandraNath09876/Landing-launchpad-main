@@ -5,6 +5,8 @@
 body{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     
     min-height: 100vh;
     margin: 0;
@@ -16,7 +18,7 @@ body{
     color: white;
     font-size: medium;
     border: 0px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .primaryBtn:hover{
@@ -54,4 +56,29 @@ body{
    
 }
 
-/* navbar section ended */
+/* Action section */
+.actionSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    gap: 150px;
+}
+
+.actionLeft{
+   padding: 0px 50px;
+}
+
+.actionLeft h2{
+    font-size: 42px;
+}
+.actionLeft p{
+    font-size: 24px;
+    color: #252432;
+}
+
+.actionRight img{
+    width: 400px;
+    height: 330px;
+    border-radius: 50px;
+}
