@@ -188,3 +188,23 @@ p{
     height: 140px;
     width: 100px;
 }
+
+/* Focus better section */
+
+.focusBetterSectoion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffff;
+    gap: 20px;
+    margin: 30px ;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.focusBetterSectoion img{
+   width: 840px;
+   height: 360px;
+   border-radius: 20px;
+}
