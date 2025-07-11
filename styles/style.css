@@ -1,0 +1,57 @@
+
+
+/* Navbar Section */
+
+body{
+    display: flex;
+    justify-content: center;
+    
+    min-height: 100vh;
+    margin: 0;
+}
+/* common items */
+.primaryBtn{
+    padding: 10px 20px;
+    background-color: #4E47FF;
+    color: white;
+    font-size: medium;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.primaryBtn:hover{
+    background-color: #47ffffda;
+}
+
+.NavbarSection{
+    height: 700px;
+    width: 1440px;
+    background-image: url("../Assets/Hero-bg.png");
+    padding-bottom: 100px;
+   
+
+}
+.NavbarDiv{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+.logoName{
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+
+.slogan{
+    font-size: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+   
+}
+
+/* navbar section ended */
