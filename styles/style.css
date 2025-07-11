@@ -3,13 +3,21 @@
 /* Navbar Section */
 
 body{
+    background-color: white;
+    margin: 0px auto;
+   
+}
+.pageContainer{
+    padding: 0px 150px;
+    background-color: #e8e6f4;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
+    margin: 0px 120px;
+ 
     min-height: 100vh;
-    margin: 0;
+    min-width: 100vh;
 }
 /* common items */
 .primaryBtn{
@@ -31,6 +39,9 @@ h1{
 
 h2{
     font-size: 42px;
+}
+h3{
+    font-size: 25px;
 }
 p{
     font-size: 24px;
@@ -140,4 +151,40 @@ p{
     margin: 0;
     font-size: 18px;
     color: #000000;
+}
+
+/* Users feedback section */
+.UsersFeedbackSection{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.card{
+    height: 300px;
+    width: 350px;
+    padding: 30px;
+    background-color: #ffff;
+    border-radius: 15px;
+}
+
+.feedbackCardsSection{
+    display: flex;
+    gap: 25px;
+}
+
+.reviewerDetails{
+   
+    display: flex;
+    gap: 20px;
+   
+   
+}
+
+.reviewerDetails img{
+    height: 140px;
+    width: 100px;
 }
